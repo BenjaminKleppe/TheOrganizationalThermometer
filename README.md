@@ -3,11 +3,12 @@
 This project includes the following files:
 1. 'main.py'
 2. 'feedback_product_development.xlsx'
-3. 'Results CorpX.xlsx'
+3. 'output_tool.xlsx'
+4. 'Results_CorpX.xlsx'
 
 # 'main.py'
 The main.py includes the code that was developed for this project.
-To run it, please insert your own API key from OpenAI.
+**To run it, please insert your own API key from OpenAI.**
 
 It will produce a dataset consisting of:
 - the corresponding department (R&D or Quality);
@@ -16,7 +17,7 @@ It will produce a dataset consisting of:
 - the predicted BPMN activity;
 - the correct BPMN activity.
 
-Furthermore, the program will produce a ConfusionMatrix, illustrating the correct and incorrect predictions.
+Additionally, the program will produce a ConfusionMatrix, illustrating the correct and incorrect predictions.
 
 # 'feedback_product_development.xlsx'
 This file contains the input for main.py
@@ -26,7 +27,16 @@ It contains an Excel sheet, including the following columns:
 - sentiment (positive or negative);
 - feedback message.
 
-# 'Results CorpX.xlsx'
+# 'output_tool.xlsx'
+This file contains the output of the tool (main.py)
+It presents an Excel sheet, including the following columns:
+- department (R&D or Quality);
+- sentiment (positive or negative);
+- feedback message;
+- the predicted BPMN activity;
+- the correct BPMN activity.
+
+# 'Results_CorpX.xlsx'
 This file presents the output of the research project.
 It includes two Excel sheets, containing:
 - a sheet that presents the organizational thermometer that represents the sentiment of process participants towards their daily executed BPMN activities, visualized using a heat map overlay;
